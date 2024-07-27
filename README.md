@@ -1,27 +1,34 @@
-# MeetPoint
+# MeetPoint Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
+MeetPoint é um projeto frontend desenvolvido com Angular para ajudar amigos a encontrar lugares (restaurantes, bares, etc.) que são convenientes para todos. O projeto se comunica com um backend em Ruby on Rails e utiliza a API do Google Maps para localizar lugares próximos aos amigos.
 
-## Development server
+## Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular**: Framework para construção de aplicações web.
+- **TypeScript**: Linguagem utilizada para desenvolvimento no Angular.
+- **HTML/CSS**: Estrutura e estilo da aplicação.
+- **Google Maps API**: Para encontrar e exibir lugares no mapa.
 
-## Code scaffolding
+## Configuração do Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Pré-requisitos
 
-## Build
+- **Node.js**: A versão recomendada é a `v18.13.0` ou superior.
+- **npm**: Incluído com Node.js. A versão recomendada é `8.19.3` ou superior.
+- **Angular CLI**: Instalar localmente no projeto.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Git Clone e subir o projeto
+1. **Clone o Repositório**
 
-## Running unit tests
+  Clone este repositório para o seu ambiente local:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  ```bash
+  git clone git@github.com:Michael-Doug/meet-point-frontend.git
+  cd meet-point-frontend
+  ```
 
-## Running end-to-end tests
+2. **Inicie o Servidor de Desenvolvimento**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+  ```bash
+  ./start.sh
+  ```
